@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-section{
+    /* background-image: url("/images/Home\ page.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav-section{
+    display: flex;
+}
+
+#svge{
+    margin-left: 10em;
+    margin-top: 7px;
+}
+
+.nav-section #icon{
+    text-decoration: none;
+    margin-left: 0.3em;
+    margin-top: 15.8px;
+    color: white;
+}
+
+.nav-section nav{
+    margin-left: 45em;
+    margin-top: 15.8px;
+}
+.nav-section nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-section nav ul li a{
+    text-decoration: none;
+    padding: 0px 8px;
+    color: white;
+}
+/* end-nav-section */
+
+.search-section{
+    text-align: center;
+    margin-top: 12em;
+}
+/* end-header-section */
+.search-section #p{
+    margin-bottom: 0.5em;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.search-section #b{
+    margin-top: -1.4em;
+    color: white;
+    font-size: 18px;
+    margin-right: 34em;
+}
+
+.botton-search-section .svg #svg{
+    margin-top: 1em;
+    color: white;
+    margin-right: 49em;
+}
+
+.search-section input{
+    border: none;
+    border-radius: 5px;
+    background: white;
+    width: 700px;
+    height: 60px;
+    padding: 0px 3%;
+    font-size: 16px;
+    fill: black;
+}
+
+/* end-search-section */
+
+.activities-section .pe{
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    font-weight: 700px;
+}
+.top-activitis-section{
+    display: flex;
+    text-align: center;
+}
+
+.images{
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+.images img{
+    border-radius: 5px;
+    height: 330px;
+    width: 570px;
+}
+.top-activitis-section .table table{
+    margin-left: 5em;
+}
+
+.top-activitis-section .table table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-bottom: 3px solid black;
+    /* border: 1px solid #88a1b0; */
+    margin-top: 1.5em;
+    height: 64px;
+    /* width: 600px; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.atribu{
+    margin-top: 1.5em;
+    margin-right: 22.5em;
+}
+
+.atribu a{
+    color: rgb(115, 115, 199);
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.be p{
+    margin-top: 17.6em;
+    margin-left: 9em;
+    color: rgb(115, 115, 199);
+    font-size: 22px;
+    font-weight: 550;
+}
+/* end-activities-section */
+.Quotes-section{
+    margin-top: 15em;
+    /* background-image: url("/images/beautiful-shot-snowy-mountain-sunset.jpg"); */
+    background-size: cover;
+    height: 25vh;
+    padding: 7% 14%;
+    color: white;
+}
+
+.Quotes-section .prhgaph{
+    background-color: white;
+    color: black;
+    height: 150px;
+    width: 700px;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-radius: 5px;
+}
+
+.Quotes-section .prhgaph p{
+    line-height: 28px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 300px;
+    text-align: left;
+}
+
+/* end-Quotes-section */
+
+.client-section{
+    background: #5b86a0;
+    margin-top: 10em;
+    padding: 7% 15%;
+    text-align: center;
+    height: 500px;
+}
+
+.client-section h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.image{
+    margin-top: 2.3em;   
+}
+
+.client-section img{
+    border-radius: 50%;
+    height: 210px;
+    width: 220px;
+}
+
+.pragraph{
+    margin-top: 2em;
+}
+
+.pragraph p{
+    color: white;
+    /* color: rgb(115, 115, 199); */
+    width: 80%;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 6em;
+}
+
+.name p{
+    margin-top: 1em;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.arrows{
+    margin-top: 3em;
+    display: flex;
+    margin-left: 32em;
+}
+
+.p1 svg{
+   margin-left: -5em; 
+}
+
+.p2 svg{
+    margin-right: -10em; 
+ }
+/* end-client-section */
+
+.Destination-section{
+    margin-top: 5em;
+    text-align: center;
+}
+
+.Destination-section img{
+    border-radius: 5px;
+}
+
+.Destination-section .image1{
+    margin-top: 5em;
+}
+
+/* end-Destination-section */
+
+.footer{
+    display: flex;
+    background: #5b86a0;
+    color: white;
+    margin-top: 10em;
+}
+
+.footer img{
+    /* background-image: url("/images/Home\ page.png"); */
+    width: 600px;
+    height: 280px;
+    border-radius: 5px;
+    margin-left: 10em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.forms{
+    text-align: center;
+    margin-top: 6em;
+    margin-left: 4em;
+}
+
+.forms h3{
+    text-align: left;
+    font-size: 20px;
+}
+
+.forms p{
+    text-align: left;
+    margin-top: 2em;
+}
+
+.footer .inputs{
+    margin-top: 2em;
+    display: flex;
+}
+
+.footer input{
+    border: none;
+    border-radius: 5px;
+    background: white;
+    width: 250px;
+    height: 40px;
+    padding: 0px 3%;
+    font-size: 16px;
+    fill: black;
+}
+
+.footer button{
+    background: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 0px 4%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2em;
+}
+
+/* end-footer */
